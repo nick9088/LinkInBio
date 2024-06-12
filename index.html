@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script src="assets/discord-status.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="assets/clipboard.js"></script>
 </head>
 <body class="gradient-bg">
   <div class="container">
@@ -16,7 +17,7 @@
       <div class="profilepic">
         <center>
           <img src="assets/img/profilepic.png" alt="Profile Picture" class="round-pfp" width="200" height="200">
-          <img id="statusicon" class="statusicon" width="40" height="40" src="assets/img/offline.png">
+          <img id="statusicon" class="statusicon" width="40" height="40" src="assets/img/offline.png" onclick="copyContent()" title="Click to copy discord handle!">
         </center>
       </div>
     </center>
@@ -26,7 +27,7 @@
         <a href="https://www.instagram.com/nick909.dev" target="_blank" class="instagram">
           <i class="fab fa-instagram"></i>
         </a>
-        <a href="https://www.linkedin.com/in/yourlinkedinprofile/" target="_blank" class="soundcloud">
+        <a href="https://soundcloud.com/prodbynick909" target="_blank" class="soundcloud">
           <i class="fab fa-soundcloud"></i>
         </a>
         <a href="https://www.youtube.com/@iamnick909" target="_blank" class="youtube">
