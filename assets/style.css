@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.gradient-bg {
+    background: linear-gradient(114deg, #0a046e, #bf00ff);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 23s ease infinite;
+    -moz-animation: AnimationName 23s ease infinite;
+    animation: AnimationName 23s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 29%}
+    50%{background-position:100% 72%}
+    100%{background-position:0% 29%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 29%}
+    50%{background-position:100% 72%}
+    100%{background-position:0% 29%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 29%}
+    50%{background-position:100% 72%}
+    100%{background-position:0% 29%}
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.content {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    width: 90vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.round-pfp {
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.name {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+  
+.social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #fff;
+    transition: all 0.1s ease-in-out;
+}
+
+.github:hover {
+    color: white;
+}
+  
+.instagram:hover {
+    color: #d0678a;
+}
+  
+.youtube:hover {
+    color: #ff0000;
+}
+
+.soundcloud:hover {
+    color: orange;
+}
+
+p {
+    text-align: center;
+}
+
+.profilepic {
+    position: relative;
+    width: 200px;
+    height: 200px; 
+}
+
+.statusicon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #030118;
+    border-radius: 50%;
+    border: 8px #000000;
+    border-style:solid;
+}
