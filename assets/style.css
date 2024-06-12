@@ -91,6 +91,10 @@ body {
     color: orange;
 }
 
+.blog:hover {
+    color: blue;
+}
+
 p {
     text-align: center;
 }
