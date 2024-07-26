@@ -4,7 +4,7 @@ const format = ".png";
 const refreshInterval = 1000;
 
 // lanyard.rest API
-const jsonLink = "https://api.lanyard.rest/v1/users/1124838328492101722";
+const jsonLink = "https://api.lanyard.rest/v1/users/1266342027239620628";
 
 // fetch the JSON data from the link
 function updateDiscordStatus() {
