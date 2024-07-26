@@ -1,6 +1,6 @@
 const copyContent = async () => {
     try {
-      await navigator.clipboard.writeText("niick909");
+      await navigator.clipboard.writeText("nick909_.");
       console.log('Content copied to clipboard');
       document.getElementById("statusicon").title = "Copied!";
     } catch (err) {
